@@ -1,0 +1,14 @@
+[package]
+name = "rand-hira"
+description = "A simple CLI tool to generate random hiragana characters."
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+rand = "0.9.0-alpha.1"
+
+[[bin]]
+name = "rand-hira"
+path = "src/main.rs"
